@@ -9,8 +9,7 @@ Sleep Wellness Hub is a website that serves as a guide to better sleep for peopl
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
+The Sleep Wellness Hub is comprised of different sections - the home section, the sleep tips section, the common sleep disorder section, the benefits of sleep section, and the about us section. The following are the section features and what they offer to users.
 ### Existing Features
 
 - __Navigation Bar__
