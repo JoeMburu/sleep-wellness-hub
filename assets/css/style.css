@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&family=Ultra&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,5 +7,11 @@
 }
 
 html, body {
-    
+    font-family: "Stint Ultra Condensed", serif;
+    font-size: 140%;
+}
+
+h1 {
+    font-family: "Ultra", serif;
+    color: red;
 }
