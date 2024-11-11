@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&family=Ultra&display=swap');
 
+/* General styling */
+
+/* Color palette*/
+/* CSS Variables */
+:root {
+    --primary-font: "Ultra", serif;
+    --secondary-font: "Stint Ultra Condensed", serif;
+    --primary-color: #A1C6EA; /* soft blue - Represnts calm, trust, relaxation */
+    --secondary-color: #C8BFE7; /*  muted Lavender - Adds a sense of peace and has subtle, sleep-related associations.*/
+    --accent-color:  #F7E3AF; /* warm Beige - Provides a cozy and warm touch to the design. */
+    --background-colorBackground: #F8F9FA; /* light grayish white - Keeps the background clean and non-distracting, helping other colors stand out. */
+    --text-color: #4A4A4A; /* charcoal gray - Offers good contrast for readability while being softer than pure black.*/
+    --menu-color: #2A3D66; /* navy blue */
+    
+}
+
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -7,11 +26,93 @@
 }
 
 html, body {
-    font-family: "Stint Ultra Condensed", serif;
-    font-size: 140%;
+    font-family: var(--secondary-font);
+    font-size: 62.5%;
+}
+
+h1, h2, h3 {
+    font-family: var(--primary-font);    
 }
 
 h1 {
-    font-family: "Ultra", serif;
-    color: red;
+    color: green;
+    font-size: 100%;
 }
+
+
+.logo {
+    display: inline-block;
+    width: 15%;
+}
+
+.logo-btn {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    border: 1px solid red;    
+}
+
+.menus a {
+    color: var(--menu-color);
+    font-size: 2.7rem;
+    margin-right: 10px;
+}
+
+.ms-auto a:active,
+.ms-auto a:focus {
+  border-bottom: 4px solid var(--menu-color);/* Increase padding when clicked or focused */
+  
+}
+
+.navbar-brand span {
+    color: var(--menu-color);
+    font-size: 250%;
+}
+
+.navbar-toggler {
+   height: 200%;
+   
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+/* Header */
+header {
+    height: 80vh;
+    background: url('../images/images/hero-bg.jpg');
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Make the image cover the entire element */
+    background-position: center; /* Center the image */
+    opacity: 0.5; /* Apply 50% opacity to the entire container */
+    background-color: var(--background-colorBackground);
+    
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: var(--secondary-color);
+}
+
+.hero p {
+    font-size: 3rem;
+    color: #fff;
+}
+
+/*
+Additional Accent Colors:
+Soft Mint (#B8E4C9): Use sparingly to introduce freshness and balance.
+Deep Navy (#2A3D66): Can be used for headers or navigation elements for contrast and depth.
+Usage Suggestions:
+Primary Color: Use for main headers, call-to-action buttons, and highlights.
+Secondary Color: Apply to subheadings, borders, or background elements to create a gentle contrast.
+Accent Color: Use for buttons, icons, and subtle design details.
+Background: Utilize a light grayish white for a clean and modern look.
+Text: Use charcoal gray for content and light gray (#6C757D) for secondary text.
+
+*/
