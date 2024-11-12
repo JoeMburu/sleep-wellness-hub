@@ -2,6 +2,10 @@
 
 /* General styling */
 
+p {
+     color: var(--text-color);
+}
+
 /* Color palette*/
 /* CSS Variables */
 :root {
@@ -46,7 +50,7 @@ html, body {
 }
 
 nav {
-    border: 1px solid red;    
+    /* border: 1px solid red;     */
 } 
 
 .menus a {
@@ -88,14 +92,34 @@ a.nav-link:focus {
 
 header {
     /* background-color: var(--background-color); */
+   
 }
 
 
-h1.display-1 {
+.display-1 {
     color: var(--primary-color);
     font-weight: 800;
 }
 
+h2.display-2 {
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+h5.display-5 {
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.hero-text {
+    padding-bottom: 2rem; /* Adjust this in larger screens */
+}
+
+.btn-subscribe {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 2rem;
+}
 
 /*
 Additional Accent Colors:
