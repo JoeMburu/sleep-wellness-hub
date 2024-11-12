@@ -5,19 +5,16 @@
 /* Color palette*/
 /* CSS Variables */
 :root {
-    --primary-font: "Ultra", serif;
-    --secondary-font: "Stint Ultra Condensed", serif;
-    --primary-color: #A1C6EA; /* soft blue - Represnts calm, trust, relaxation */
-    --secondary-color: #C8BFE7; /*  muted Lavender - Adds a sense of peace and has subtle, sleep-related associations.*/
-    --accent-color:  #F7E3AF; /* warm Beige - Provides a cozy and warm touch to the design. */
-    --background-colorBackground: #F8F9FA; /* light grayish white - Keeps the background clean and non-distracting, helping other colors stand out. */
-    --text-color: #4A4A4A; /* charcoal gray - Offers good contrast for readability while being softer than pure black.*/
-    --menu-color: #2A3D66; /* navy blue */
+    /* --primary-font: "Ultra", serif;
+    --secondary-font: "Stint Ultra Condensed", serif; */
+    --primary-color: #5D8AA8; /* Air Force Blue */
+    --secondary-color: #80CBC4; /*  Calm Teal */
+    --accent-color:  #E6E6FA; /*  Light Lavender. */
+    --background-color: #FAF3E0; /* Soft Beige */
+    --text-color: #333333; /* Dark Charcoal */
+    --border-details: #B0C4DE; /* Cool Gray */
     
 }
-
-
-
 
 * {
     padding: 0;
@@ -26,19 +23,9 @@
 }
 
 html, body {
-    font-family: var(--secondary-font);
+    /* font-family: var(--secondary-font); */
     font-size: 62.5%;
 }
-
-h1, h2, h3 {
-    font-family: var(--primary-font);    
-}
-
-h1 {
-    color: green;
-    font-size: 100%;
-}
-
 
 .logo {
     display: inline-block;
@@ -50,26 +37,40 @@ h1 {
     align-items: center;
 }
 
+.logo-btn span {
+   font-size: 2rem;
+   font-weight: 800;
+   text-shadow: 2px 2px var(--border-details);
+   color: var(--primary-color);
+   letter-spacing: 2px
+}
+
 nav {
     border: 1px solid red;    
-}
+} 
 
 .menus a {
-    color: var(--menu-color);
-    font-size: 2.7rem;
+    color: var(--primary-color);
+    font-size: 2.1rem;
     margin-right: 10px;
+    font-weight: 600;
 }
 
-.ms-auto a:active,
+a.nav-link:active,
+a.nav-link:focus { 
+    display: inline; 
+    width: fit-content;
+    border-bottom: 3px solid var(--primary-color);
+    
+}
+
+/* .ms-auto a:active,
 .ms-auto a:focus {
-  border-bottom: 4px solid var(--menu-color);/* Increase padding when clicked or focused */
+  border-bottom: 4px solid var(--menu-color);/* Increase padding when clicked or focused
   
 }
+*/
 
-.navbar-brand span {
-    color: var(--menu-color);
-    font-size: 250%;
-}
 
 .navbar-toggler {
    height: 200%;
@@ -80,29 +81,21 @@ nav {
     display: inline-block;
     width: 3.5rem;
     height: 3.5rem;
-}
-
-/* Header */
-header {
-    height: 80vh;
-    background: url('../images/images/hero-bg.jpg');
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-size: cover; /* Make the image cover the entire element */
-    background-position: center; /* Center the image */
-    opacity: 0.5; /* Apply 50% opacity to the entire container */
-    background-color: var(--background-colorBackground);
     
 }
 
-.hero h1 {
-    font-size: 4rem;
-    color: var(--secondary-color);
+/* Header */
+
+header {
+    /* background-color: var(--background-color); */
 }
 
-.hero p {
-    font-size: 3rem;
-    color: #fff;
+
+h1.display-1 {
+    color: var(--primary-color);
+    font-weight: 800;
 }
+
 
 /*
 Additional Accent Colors:
