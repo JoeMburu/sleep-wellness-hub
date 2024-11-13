@@ -131,6 +131,14 @@ header {
     font-size: 2rem;
 }
 
+#testimonialCarousel img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
 /* Media queries for home section*/
 @media screen and (min-width: 768px) {
     .display-5 {
