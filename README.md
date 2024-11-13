@@ -7,7 +7,7 @@ Sleep Wellness Hub is a website that serves as a guide to better sleep for peopl
 
 ![Responsice Mockup](https://github.com/JoeMburu/sleep-wellness-hub/blob/main/assets/images/images/desktop%20landing.png)
 ![Responsice Mockup](https://github.com/JoeMburu/sleep-wellness-hub/blob/main/assets/images/images/mobile%20%20landing.png)
-![Responsice Mockup](https://github.com/JoeMburu/sleep-wellness-hub/commit/d9e3f2f7bc63ef02a21607091cef50a76c5f83d2)
+![Responsice Mockup](https://github.com/JoeMburu/sleep-wellness-hub/blob/main/assets/images/images/desktop%20view%20Featured%20articles.png)
 
 ## Features 
 
