@@ -6,6 +6,8 @@ Welcome to
 Sleep Wellness Hub is a website that serves as a guide to better sleep for people struggling with sleep problems. It accomplishes this by offering tips for better sleep and tools to help people sleep well. When we sleep well and are well-rested, we are energized for the day's activities. It also shares insights into common sleep disorders and signs to look for to seek medical help. Above all, it highlights the benefits of good sleep, which motivates us to strive to sleep well.
 
 ![Responsice Mockup](https://github.com/JoeMburu/sleep-wellness-hub/blob/main/assets/images/images/desktop%20landing.png)
+![Responsice Mockup](https://github.com/JoeMburu/sleep-wellness-hub/blob/main/assets/images/images/mobile%20%20landing.png)
+![Responsice Mockup](https://github.com/JoeMburu/sleep-wellness-hub/blob/main/assets/images/images/desktop%20landing.png)
 
 ## Features 
 
