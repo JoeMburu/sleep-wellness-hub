@@ -16,15 +16,14 @@ The Sleep Wellness Hub website is a one-page website divided into four sections,
 
 - __Navigation Bar__
 
-  - This is user-friendly because it leads the user the Logo and the menubar showing the links to the different sections. It is responsive depending on the device of the user. For large and larger devices it opens up to display all the menu options but collapses into clickable items when there is no space.
+  - This is user-friendly because it leads the user to the Logo of the website, and the menubar. The menubar  shows the links to the different sections. It is responsive depending on the device of the user. For large and larger devices it opens up to display all the menu options but collapses into clickable items when there is no space.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. The menu is always displayed at the top of the page to be visible when scrolling. 
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing section invites the user warmly with hero text about the page and also a hero image, showing someone who is sleeping and a call to action to subscribe to the newsletter for more information on sleep.  
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Responsice Mockup](https://github.com/JoeMburu/sleep-wellness-hub/blob/main/assets/images/images/desktop%20landing.png)
 
 - __Featured Articles Section__
 
