@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&family=Ultra&display=swap');
 
-/* General styling */
-
-p {
-     color: var(--text-color);
-}
-
 /* Color palette*/
 /* CSS Variables */
 :root {
@@ -29,6 +23,15 @@ p {
 html, body {
     /* font-family: var(--secondary-font); */
     font-size: 62.5%;
+}
+
+/* General styling */
+h1, h2, h5 {
+    margin-bottom: 1rem;
+}
+
+svg {
+    vertical-align: 0px;
 }
 
 .logo {
@@ -68,14 +71,6 @@ a.nav-link:focus {
     
 }
 
-/* .ms-auto a:active,
-.ms-auto a:focus {
-  border-bottom: 4px solid var(--menu-color);/* Increase padding when clicked or focused
-  
-}
-*/
-
-
 .navbar-toggler {
    height: 200%;
    
@@ -101,14 +96,15 @@ header {
     font-weight: 800;
 }
 
-h2.display-2 {
+.display-2 {
     color: var(--primary-color);
-    font-weight: 800;
+    font-weight: 700;
+    font-size: 3rem;
 }
 
-h5.display-5 {
+.display-5 {
     color: var(--primary-color);
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .hero-text {
@@ -121,6 +117,46 @@ h5.display-5 {
     font-size: 2rem;
 }
 
+/* Home section */
+
+.featured-card-image {
+    border: 1px solid red;
+    display: block;
+    height: 200px; /* Set desired height */
+    object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+    
+}
+
+.home a {
+    font-size: 2rem;
+}
+
+/* Media queries for home section*/
+@media screen and (min-width: 768px) {
+    .display-5 {
+        font-size: 2.5rem;
+      }
+}
+
+
+@media screen and (min-width: 992px) {
+    .display-2 {
+       font-size: 3.5rem;
+    }
+    .display-5 {
+      font-size: 2.5rem;
+    }
+
+    .display-6 {
+        font-size: 2.4rem;
+    }
+
+    .home .card {
+       height: 100%
+    }
+
+   
+}
 /*
 Additional Accent Colors:
 Soft Mint (#B8E4C9): Use sparingly to introduce freshness and balance.
