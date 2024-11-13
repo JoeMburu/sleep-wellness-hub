@@ -26,13 +26,10 @@ html, body {
 }
 
 /* General styling */
-h1, h2, h5 {
+h1, h2, h3, h5 {
     margin-bottom: 1rem;
 }
 
-svg {
-    vertical-align: 0px;
-}
 
 .logo {
     display: inline-block;
@@ -102,6 +99,12 @@ header {
     font-size: 3rem;
 }
 
+.display-3 {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
 .display-5 {
     color: var(--primary-color);
     font-weight: 600;
@@ -118,6 +121,10 @@ header {
 }
 
 /* Home section */
+
+home {
+    background-color: var(--background-color);
+}
 
 .featured-card-image {
     border: 1px solid red;
