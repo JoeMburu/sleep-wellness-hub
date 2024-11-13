@@ -126,7 +126,7 @@ header {
 
 /* Home section */
 
-home {
+.home {
     background-color: var(--background-color);
 }
 
@@ -152,11 +152,35 @@ home {
 }
 
 
+/* Sleep disorders section */
+
+.sleep-disorders {
+    background-color: var(--background-color);
+}
+
+/* Sleep benefits section */
+.sleep-benefits .list-group-item {
+    font-size: 2.5rem; 
+    background-color: transparent; 
+    border: none; 
+    padding: 0.75rem 1rem; 
+    
+  }
+  .sleep-benefits .list-group-item i {
+    color: var(--accent-color); 
+  }
+  
+
 
 /* Media queries for home section*/
 @media screen and (min-width: 768px) {
     .display-5 {
         font-size: 2.5rem;
+      }
+
+      .sleep-benefits .list-group-item {
+        font-size: 3rem;         
+        
       }
 }
 
