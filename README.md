@@ -17,18 +17,16 @@ The Sleep Wellness Hub website is a one-page website divided into four sections,
 - __Navigation Bar__
 
   - This is user-friendly because it leads the user to the Logo of the website, and the menubar. The menubar  shows the links to the different sections. It is responsive depending on the device of the user. For large and larger devices it opens up to display all the menu options but collapses into clickable items when there is no space.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. The menu is always displayed at the top of the page to be visible when scrolling. 
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button. The menu is always displayed at the top of the page to be visible when scrolling. 
 
 - __The landing page image__
 
-  - The landing section invites the user warmly with hero text about the page and also a hero image, showing someone who is sleeping and a call to action to subscribe to the newsletter for more information on sleep.  
-
-![Responsice Mockup](https://github.com/JoeMburu/sleep-wellness-hub/blob/main/assets/images/images/desktop%20landing.png)
-
+  - The landing section invites the user warmly with hero text about the page and also a hero image, showing someone who is sleeping and a call to action to subscribe to the newsletter for more information on sleep.
+    
 - __Featured Articles Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The featured articles provide some information about tips to quality sleep and link to articles for more reading. The featured articles are comprehensive reading, but the sleep tips section will provide a summary of the important tips or advice offered in the articles.
+  - This user will head for the newsletter to subscribe for the articles to keep up to date. 
 
 
 
@@ -54,20 +52,19 @@ The Sleep Wellness Hub website is a one-page website divided into four sections,
 
 - __About Us section__
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
 - __Subscribe for Newsletter section__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+!
 
 
 ### Features Left to Implement
